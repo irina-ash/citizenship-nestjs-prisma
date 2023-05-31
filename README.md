@@ -1,7 +1,3 @@
-### To run Prisma Studio
-
-``yarn prisma studio``
-
 ### To create a migration
 make a change to your schema and run the following command to create and apply migrations:
 
@@ -11,3 +7,11 @@ make a change to your schema and run the following command to create and apply m
 run the db seed CLI command:
 
 ``npx prisma db seed``
+
+### To run Prisma Studio
+
+``yarn prisma studio``
+
+
+### To run app
+``yarn start:dev``
