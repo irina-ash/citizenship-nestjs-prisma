@@ -38,6 +38,28 @@ export class AppController {
     return this.userService.users({});
   }
 
+  @Get('country/:id/users')
+  async getUsersByCountry(@Param('id') id: string): Promise<UserModel[]> {
+    return this.userService.users({
+      where: {
+        city: {
+          countryId: Number(id),
+        },
+      },
+    });
+  }
+
+  @Get('region/:id/users')
+  async getUsersByRegion(@Param('id') id: string): Promise<UserModel[]> {
+    return this.userService.users({
+      where: {
+        city: {
+          regionId: Number(id),
+        },
+      },
+    });
+  }
+
   @Get('countries')
   async getCountries(): Promise<CountryModel[]> {
     return this.countryService.countries({});
@@ -48,8 +70,26 @@ export class AppController {
     return this.regionService.regions({});
   }
 
+  @Get('countries/:id/regions')
+  async getRegionsByCountry(@Param('id') id: string): Promise<RegionModel[]> {
+    return this.regionService.regions({
+      where: {
+        countryId: Number(id),
+      },
+    });
+  }
+
   @Get('cities')
   async getCities(): Promise<CityModel[]> {
     return this.cityService.cities({});
+  }
+
+  @Get('region/:id/cities')
+  async getCitiesByRegion(@Param('id') id: string): Promise<CityModel[]> {
+    return this.cityService.cities({
+      where: {
+        regionId: Number(id),
+      },
+    });
   }
 }
