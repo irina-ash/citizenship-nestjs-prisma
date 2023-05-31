@@ -1,0 +1,46 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id     Int    @id @default(autoincrement())
+  email  String @unique
+  cityId Int?
+  city   City?  @relation(fields: [cityId], references: [id])
+}
+
+model Country {
+  id      Int      @id
+  value   String   @unique
+  title   String?
+  name    String?
+  regions Region[]
+  cities  City[]
+}
+
+model Region {
+  id        Int     @id
+  value     String  @unique
+  countryId Int
+  country   Country @relation(fields: [countryId], references: [id])
+  title     String?
+  cities    City[]
+}
+
+model City {
+  id        Int      @id
+  name      String?
+  title     String?
+  value     String   @unique
+  timezone  String?
+  regionId  Int?
+  region    Region?  @relation(fields: [regionId], references: [id])
+  countryId Int?
+  country   Country? @relation(fields: [countryId], references: [id])
+  users     User[]
+}

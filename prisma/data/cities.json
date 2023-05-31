@@ -1,0 +1,157 @@
+{
+    "cities": [
+        {
+            "id": 1,
+            "countryId": 130,
+            "name": "Тюмень",
+            "title": "Tyumen",
+            "value": "TMN",
+            "regionId": 72,
+            "timezone": "(GMT+5)"
+        },
+        {
+            "id": 2,
+            "countryId": 130,
+            "name": "Санкт-Петербург",
+            "title": "Saint Pitersburg",
+            "value": "SPT",
+            "regionId": 36,
+            "timezone": "(GMT+3)"
+        },
+        {
+            "id": 3,
+            "countryId": 130,
+            "name": "Москва",
+            "title": "Moscow",
+            "value": "MSK",
+            "regionId": 38,
+            "timezone": "(GMT+3)"
+        },
+        {
+            "id": 4,
+            "countryId": 130,
+            "name": "Симферополь",
+            "title": "Simpheropol",
+            "value": "SMP",
+            "regionId": null,
+            "timezone": "(GMT+3)"
+        },
+        {
+            "id": 5,
+            "countryId": 130,
+            "name": "Новосибирск",
+            "title": "Novosibirsk",
+            "value": "NVS",
+            "regionId": 47,
+            "timezone": "(GMT+7)"
+        },
+        {
+            "id": 6,
+            "countryId": 130,
+            "name": "Казань",
+            "title": "Kazan",
+            "value": "KZN",
+            "regionId": 69,
+            "timezone": "(GMT+3)"
+        },
+        {
+            "id": 7,
+            "countryId": 130,
+            "name": "Краснодар",
+            "title": "Krasnodar",
+            "value": "KRS",
+            "regionId": 20,
+            "timezone": "(GMT+3)"
+        },
+        {
+            "id": 8,
+            "countryId": 130,
+            "name": "Екатеринбург",
+            "title": "Ekaterinburg",
+            "value": "EKB",
+            "regionId": 65,
+            "timezone": "(GMT+5)"
+        },
+        {
+            "id": 9,
+            "countryId": 130,
+            "name": "Балашиха",
+            "title": "Balashiha",
+            "value": "BLS",
+            "regionId": 43,
+            "timezone": "(GMT+3)"
+        },
+        {
+            "id": 10,
+            "countryId": 130,
+            "name": "Биробиджан",
+            "title": "Birobidzan",
+            "value": "BRZ",
+            "regionId": 81,
+            "timezone": "(GMT+10)"
+        },
+        {
+            "id": 11,
+            "countryId": 27,
+            "name": "Бобруйск",
+            "title": "Bobruisk",
+            "value": "BBR",
+            "regionId": null,
+            "timezone": "(GMT+3)"
+        },
+        {
+            "id": 12,
+            "countryId": 130,
+            "name": "Пушкино",
+            "title": "Pushkino",
+            "value": "PSK",
+            "regionId": 43,
+            "timezone": "(GMT+3)"
+        },
+        {
+            "id": 13,
+            "countryId": 130,
+            "name": "Рыбинск",
+            "title": "Rybinsk",
+            "value": "RBK",
+            "regionId": 80,
+            "timezone": "(GMT+3)"
+        },
+        {
+            "id": 14,
+            "countryId": 85,
+            "name": "Астана",
+            "title": "Astana",
+            "value": "AST",
+            "regionId": null,
+            "timezone": "(GMT+6)"
+        },
+        {
+            "id": 15,
+            "countryId": 56,
+            "name": "Батуми",
+            "title": "Batumi",
+            "value": "BTM",
+            "regionId": null,
+            "timezone": "(GMT+4)"
+        },
+        {
+            "id": 16,
+            "countryId": 27,
+            "name": "Жлобин",
+            "title": "Zhlobin",
+            "value": "ZHL",
+            "regionId": null,
+            "timezone": "(GMT+3)"
+        },
+        {
+            "id": 17,
+            "countryId": 130,
+            "name": "Южно-Сахалинск",
+            "title": "Yuzhno-Sakhalinsk",
+            "value": "UZSK",
+            "regionId": 60,
+            "timezone": "(GMT+11)"
+        }
+    ]
+}
