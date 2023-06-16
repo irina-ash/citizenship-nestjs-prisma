@@ -1,0 +1,28 @@
+{
+    "grades": [
+        {
+            "id": 0,
+            "name": "Junior"
+        },
+        {
+            "id": 1,
+            "name": "Pre-Middle"
+        },
+        {
+            "id": 2,
+            "name": "Middle"
+        },
+        {
+            "id": 3,
+            "name": "Upper-Middle"
+        },
+        {
+            "id": 4,
+            "name": "Senior"
+        },
+        {
+            "id": 5,
+            "name": "TeamLead"
+        }
+    ]
+}

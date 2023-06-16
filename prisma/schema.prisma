@@ -8,14 +8,17 @@ datasource db {
 }
 
 model User {
-  id     Int    @id @default(autoincrement())
-  email  String @unique
-  cityId Int?
-  city   City?  @relation(fields: [cityId], references: [id])
+  id          Int          @id @default(autoincrement())
+  email       String       @unique
+  cityId      Int?
+  city        City?        @relation(fields: [cityId], references: [id])
+  grades      UserGrade[]
+  questionary Questionary?
+  stack UserStack?
 }
 
 model Country {
-  id      Int      @id
+  id      Int      @id @default(autoincrement())
   value   String   @unique
   title   String?
   name    String?
@@ -24,7 +27,7 @@ model Country {
 }
 
 model Region {
-  id        Int     @id
+  id        Int     @id @default(autoincrement())
   value     String  @unique
   countryId Int
   country   Country @relation(fields: [countryId], references: [id])
@@ -33,7 +36,7 @@ model Region {
 }
 
 model City {
-  id        Int      @id
+  id        Int      @id @default(autoincrement())
   name      String?
   title     String?
   value     String   @unique
@@ -43,4 +46,49 @@ model City {
   countryId Int?
   country   Country? @relation(fields: [countryId], references: [id])
   users     User[]
+}
+
+model Grade {
+  id         Int         @id @default(autoincrement())
+  name       String?
+  userGrades UserGrade[]
+}
+
+model DeveloperGroup {
+  id         Int         @id @default(autoincrement())
+  name       String?
+  userGrades UserGrade[]
+}
+
+model UserGrade {
+  id      Int             @id @default(autoincrement())
+  email   String?
+  user    User?           @relation(fields: [email], references: [email])
+  gradeId Int?
+  grade   Grade?          @relation(fields: [gradeId], references: [id])
+  groupId Int?
+  group   DeveloperGroup? @relation(fields: [groupId], references: [id])
+}
+
+model Questionary {
+  id             Int     @id @default(autoincrement())
+  email          String  @unique
+  user           User?    @relation(fields: [email], references: [email])
+  recomendation  String?
+  hobby          String?
+  workExperience String?
+  comment        String?
+}
+
+model DeveloperStack {
+  id             Int     @id @default(autoincrement())
+  name String
+  userStack UserStack[]
+}
+
+model UserStack {
+  id      Int             @id @default(autoincrement())
+  email   String? @unique
+  user    User?           @relation(fields: [email], references: [email])
+  stack DeveloperStack[]
 }

@@ -1,0 +1,264 @@
+{
+    "users": [
+        {
+            "email": "aba@crtweb.ru",
+            "cityId": 4
+        },
+        {
+            "email": "abr@crtweb.ru",
+            "cityId": 3
+        },
+        {
+            "email": "ayu@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "ahi@crtweb.ru",
+            "cityId": 2
+        },
+        {
+            "email": "seb@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "bann@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "bav@crtweb.ru",
+            "cityId": 7
+        },
+        {
+            "email": "mba@crtweb.ru",
+            "cityId": 2
+        },
+        {
+            "email": "ben@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "byu@crtweb.ru",
+            "cityId": 2
+        },
+        {
+            "email": "yub@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "vav@crtweb.ru",
+            "cityId": 2
+        },
+        {
+            "email": "vel@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "ev@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "vol@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "vog@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "gak@crtweb.ru",
+            "cityId": 6
+        },
+        {
+            "email": "gou@crtweb.ru",
+            "cityId": 13
+        },
+        {
+            "email": "grm@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "guk@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "dao@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "dma@crtweb.ru",
+            "cityId": 12
+        },
+        {
+            "email": "dui@crtweb.ru",
+            "cityId": 5
+        },
+        {
+            "email": "eva@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "kdp@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "hrd@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "qa@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "idm@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "ek@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "cad@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "kin@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "ki@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "fin@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "koe@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "kot@crtweb.ru",
+            "cityId": 2
+        },
+        {
+            "email": "kud@crtweb.ru",
+            "cityId": 14
+        },
+        {
+            "email": "lad@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "medv@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "mod@crtweb.ru",
+            "cityId": 4
+        },
+        {
+            "email": "mukd@crtweb.ru",
+            "cityId": 15
+        },
+        {
+            "email": "ovv@crtweb.ru",
+            "cityId": 16
+        },
+        {
+            "email": "valp@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "pal@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "pem@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "buh@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "ram@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "rua@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "rek@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "saa@crtweb.ru",
+            "cityId": 11
+        },
+        {
+            "email": "sae@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "fs@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "ses@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "das@crtweb.ru",
+            "cityId": 8
+        },
+        {
+            "email": "son@crtweb.ru",
+            "cityId": 9
+        },
+        {
+            "email": "stm@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "nis@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "as@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "at@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "un@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "kha@crtweb.ru",
+            "cityId": 10
+        },
+        {
+            "email": "har@crtweb.ru",
+            "cityId": 6
+        },
+        {
+            "email": "hoa@crtweb.ru",
+            "cityId": 3
+        },
+        {
+            "email": "vsh@crtweb.ru",
+            "cityId": 3
+        },
+        {
+            "email": "shi@crtweb.ru",
+            "cityId": 1
+        },
+        {
+            "email": "yap@crtweb.ru",
+            "cityId": 1
+        }
+    ]
+}

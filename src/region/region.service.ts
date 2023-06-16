@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
-import { Region, Prisma } from '@prisma/client';
+import { Prisma } from '@prisma/client';
 import { PrismaService } from '../prisma/prisma.service';
+import { RegionReturnDto } from './region.dto';
 
 @Injectable()
 export class RegionService {
@@ -13,14 +14,16 @@ export class RegionService {
     cursor?: Prisma.RegionWhereUniqueInput;
     where?: Prisma.RegionWhereInput;
     orderBy?: Prisma.RegionOrderByWithRelationInput;
-  }): Promise<Region[]> {
-    const { skip, take, cursor, where, orderBy } = params;
+    include?: Prisma.RegionInclude;
+  }): Promise<RegionReturnDto[]> {
+    const { skip, take, cursor, where, orderBy, include } = params;
     return this.prisma.region.findMany({
       skip,
       take,
       cursor,
       where,
       orderBy,
+      include,
     });
   }
 }

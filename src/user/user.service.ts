@@ -1,6 +1,4 @@
 import { Injectable } from '@nestjs/common';
-// преимущество использования `Prisma` в `TypeScript-проекте` состоит в том,
-// что `Prisma` автоматически генерирует типы для моделей и их вариаций
 import { User, Prisma } from '@prisma/client';
 import { PrismaService } from '../prisma/prisma.service';
 
@@ -10,9 +8,14 @@ export class UserService {
   constructor(private prisma: PrismaService) {}
 
   // получение пользователя по email
-  async user(where: Prisma.UserWhereUniqueInput): Promise<User | null> {
+  async user(params: {
+    where: Prisma.UserWhereUniqueInput;
+    include: Prisma.UserInclude;
+  }): Promise<User | null> {
+    const { where, include } = params;
     return this.prisma.user.findUnique({
       where,
+      include,
     });
   }
 
@@ -23,14 +26,16 @@ export class UserService {
     cursor?: Prisma.UserWhereUniqueInput;
     where?: Prisma.UserWhereInput;
     orderBy?: Prisma.UserOrderByWithRelationInput;
+    include?: Prisma.UserInclude;
   }): Promise<User[]> {
-    const { skip, take, cursor, where, orderBy } = params;
+    const { skip, take, cursor, where, orderBy, include } = params;
     return this.prisma.user.findMany({
       skip,
       take,
       cursor,
       where,
       orderBy,
+      include,
     });
   }
 

@@ -1,0 +1,68 @@
+{
+    "stack": [
+        {
+            "id": 0,
+            "name": "NodeJS"
+        },
+        {
+            "id": 1,
+            "name": "ReactJS"
+        },
+        {
+            "id": 2,
+            "name": "VueJS"
+        },
+        {
+            "id": 3,
+            "name": "Django"
+        },
+        {
+            "id": 4,
+            "name": "ReduxToolkit"
+        },
+        {
+            "id": 5,
+            "name": "CSS"
+        },
+        {
+            "id": 6,
+            "name": "HTML"
+        },
+        {
+            "id": 7,
+            "name": "TypeScript"
+        },
+        {
+            "id": 8,
+            "name": "JavaScript"
+        },
+        {
+            "id": 9,
+            "name": "PHP"
+        },
+        {
+            "id": 10,
+            "name": "Python"
+        },
+        {
+            "id": 11,
+            "name": "Symfony"
+        },
+        {
+            "id": 12,
+            "name": "Laravel"
+        },
+        {
+            "id": 13,
+            "name": "PostgreSQL"
+        },
+        {
+            "id": 14,
+            "name": "CI/CD"
+        },
+        {
+            "id": 15,
+            "name": "Git"
+        }
+    ]
+}

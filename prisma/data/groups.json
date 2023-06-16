@@ -1,0 +1,24 @@
+{
+    "groups": [
+        {
+            "id": 0,
+            "name": "Frontend"
+        },
+        {
+            "id": 1,
+            "name": "Backend"
+        },
+        {
+            "id": 2,
+            "name": "Testing"
+        },
+        {
+            "id": 3,
+            "name": "Mobile"
+        },
+        {
+            "id": 4,
+            "name": "UX/UI"
+        }
+    ]
+}
